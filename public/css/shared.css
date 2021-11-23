@@ -1,0 +1,37 @@
+.md-form > .prefix {
+    color: rgb(41, 41, 41);
+    left: 0;
+}
+
+
+.icons-list-container{
+    margin: 5px;
+    max-height: 200px;
+    overflow: auto;
+}
+
+.icons-list-container i{
+    font-size: 26px;
+    color: rgb(36, 36, 36);
+}
+.icons-list-container > div{
+    border: 1px solid #beb9b9;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.icons-list-container > div:hover{
+    border: 1px solid #e9f1df;
+    transform: scale(0.9);
+}
+.icons-list-container > div.active{
+    background-color: #007bff;
+}
+.icons-list-container > div.active > i{
+    color: white;;
+}
